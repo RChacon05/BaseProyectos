@@ -12,7 +12,7 @@ interface UserListsFormProps {
   onAdd: () => void
 }
 
-export const UserListsForm = ({ value, onChange, onAdd }: UserListsFormProps) => (
+const UserListsForm = ({ value, onChange, onAdd }: UserListsFormProps) => (
   <div className="grid gap-4 sm:grid-cols-[1fr_auto]">
     <FormField
       id="user-list-name"
@@ -34,3 +34,5 @@ export const UserListsForm = ({ value, onChange, onAdd }: UserListsFormProps) =>
     </Button>
   </div>
 )
+
+export default UserListsForm

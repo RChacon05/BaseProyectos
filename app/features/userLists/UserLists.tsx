@@ -1,14 +1,11 @@
 "use client"
 
-"use client"
-
 import React from 'react'
 import Button from '@/app/components/button/Button'
-import FormField from '@/app/components/form-field/FormField'
 import Section from '@/app/components/section/Section'
 import SectionTitle from '@/app/components/section-title/SectionTitle'
 import { useUserListsViewModel } from './hooks/useUserListsViewModel'
-import { UserListsForm } from './UserListsForm'
+import UserListsForm from './UserListsForm'
 
 const UserLists: React.FC = () => {
   const {
